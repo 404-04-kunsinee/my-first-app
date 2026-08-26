@@ -9,7 +9,7 @@ weight = st.number_input("กรอกนํ้าหนักของคุณ
 height_cm = st.number_input("กรอกส่วนสูงของคุณ (เซนติเมตร):", min_value=1.0, value=1.0)
 
 #ส่วนที่ 3 สร้างปุ่มกดคํานวณ
-if st.button("คํานวณค่า BMI 🎯"):
+  if st.button("คํานวณค่า BMI 🎯"):
     # แปลงส่วนสูงจาก cm เป็น เมตร เเล้วคํานวณ BMI
     height_m = height_cm / 100
     bmi = weight / (height_m ** 2)
